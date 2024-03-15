@@ -1,0 +1,194 @@
+/* media qurey */
+@media screen and (min-width : 0px) and (max-width : 678px) {
+  .bi-people,.icons>span{
+    display: none;
+  }
+  .home{
+    display: block;
+    color: #808080;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .home>span{
+    color: #000000;
+  }
+  .discover>div>h1{
+    font-size: 40px;
+  }
+  .discover>p{
+    font-size: 20px;
+    margin: 20px;
+  }
+  .count>p{
+    display: none;
+  }
+  .divider{
+    display: block;
+    color: #8a8988;
+    font-size: xx-large;
+    font-weight: 20;
+  }
+  .showfilter{
+    display: none;
+  }
+  .showfilter1{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  .content:nth-child(1){
+    width: 30%;
+  }
+  .content:nth-child(2){
+    width: 20%;
+  }
+  .shop{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1{
+    border: none;
+    background-color: white;
+  }
+  .navbar1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .navbar-toggler{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .toggler{
+    height: 30px;
+    /* color: white; */
+  }
+  .navbar-links li {
+    margin-right: 1rem;
+  }
+  .navbar-links li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Show/hide navbar links based on toggle state */
+  .navbar1 .open .navbar-links {
+    display: flex;
+  }
+  .navbar1:not(.close) .navbar-links {
+    display: none;
+  }
+  .navall{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .navall>.navbar1{
+    position: relative;
+    top: 8px;
+  }
+  .show1{
+    max-height: auto;
+  }
+  .hide1{
+    display : none;
+  }
+  .hidden{
+    display: block;
+  }
+  .signfooter>p:nth-child(2){
+    display: none;
+  }
+  .fisrtfooter{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .media1{
+    display: none;
+  }
+  .hidden1{
+    display: contents;
+  }
+  .secondfooter{
+    display: block;
+    flex-wrap: nowrap;
+    /* width: 100%; */
+  }
+  .secondfooter{
+    /* display: none; */
+  }
+}
+
+@media (max-width : 678px) {
+  .nav{
+    width: 85%;
+    margin: none;
+  }
+  .nav h5{
+      border-bottom: 1px solid gray !important;
+      padding: 10px;
+      padding: none;
+  }
+  .nav>div>div{
+    display: none;
+  }
+  .nav:hover>div>div{
+    display: block !important;
+    flex-wrap: wrap;
+  }
+  .nav li{
+      display: none;
+  }
+  .nav:hover li{
+      display: block !important;
+  }
+  .inputfooter{
+    display: flex;
+  }
+  .imagefooter{
+    margin-bottom: 30px;
+  }
+  .imagefooter li img{
+    width: 80px;
+    height: 30px;
+  }
+  .accepfooter{
+    margin-bottom: 20px;
+  }
+  .flex1{
+    display: block;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+  
+@media screen and (min-width : 0px) and (max-width : 678px) {
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .cardproducts {
+      flex: 0 calc(45% - 10px);
+      margin-bottom: 20px;
+  }
+  .cardproducts img {
+      width: 100%;
+  }
+  .cardheart {
+      display: flex;
+      justify-content: space-between;
+  }
+}
+  

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../media.css'
 
 const Items = () => {
 
@@ -18,12 +19,12 @@ const Items = () => {
                     <div className='showspace'>
                         <ul className='showfilter'>
                             <p onClick={() => setShowFilter(!showFilter)}>
-                            {
-                                showFilter ? <i className='bi bi-chevron-right'></i> : <i className='bi bi-chevron-left'></i>
-                            }
-                            {
-                                showFilter ? 'Hide Filter' : `Show Filter`
-                            }
+                                {
+                                    showFilter ? <i className='bi bi-chevron-right'></i> : <i className='bi bi-chevron-left'></i>
+                                }
+                                {
+                                    showFilter ? 'Hide Filter' : `Show Filter`
+                                }
                             </p>
                         </ul>
                         <p className='showfilter1' onClick={() => setShowFilter(!showFilter)}>

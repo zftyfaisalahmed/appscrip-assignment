@@ -41,6 +41,9 @@ hr{
   height: 1px;
   background-color: #8a8988 !important;
 }
+
+/* display none */
+
 .home{
   display: none;
 }
@@ -50,52 +53,20 @@ hr{
 .showfilter1{
   display: none;
 }
-@media screen and (min-width : 0px) and (max-width : 678px) {
-  .bi-people,.icons>span{
-    display: none;
-  }
-  .home{
-    display: block;
-    color: #808080;
-    font-weight: bold;
-    margin-left: 30px;
-  }
-  .home>span{
-    color: #000000;
-  }
-  .discover>div>h1{
-    font-size: 40px;
-  }
-  .discover>p{
-    font-size: 20px;
-    margin: 0;
-  }
-  .count>p{
-    display: none;
-  }
-  .divider{
-    display: block;
-    color: #8a8988;
-    font-size: xx-large;
-    font-weight: 20;
-  }
-  .showfilter{
-    display: none;
-  }
-  .showfilter1{
-    display: block;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-  }
-  .content:nth-child(1){
-    width: 30%;
-  }
-  .content:nth-child(2){
-    width: 20%;
-
-  }
+.navbar1{
+  display: none;
+}
+.hidden{
+  display: none;
+}
+.hidden1{
+  display: none;
+}
+.hidden2{
+  display: none;
+}
+.flex1{
+  display: none;
 }
 
 /* Discover */
@@ -108,7 +79,7 @@ hr{
 .discover>p{
   font-size: 20px;
   text-align: center;
-  margin: 0px 60px 0px 80px;
+  margin: 0px 150px;
   line-height: 2rem;
 }
 
@@ -249,4 +220,149 @@ hr{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* footer */
+
+.mainfooter{
+  background-color: black;
+  color: #fff;
+  /* margin: 20px 20px; */
+}
+.mainfooter>.fisrtfooter{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px;
+}
+.signfooter, .contactfooter{
+  margin: 50px 0px 0px 0px;
+}
+.signfooter>p{
+  margin-bottom: 40px;
+}
+.knowfooter{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.inputfooter>input{
+  margin-right: 10px;
+  border: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+}
+.inputfooter>input::placeholder{
+  font-size: 15px;
+  word-spacing: 2px;
+}
+.btnfooter{
+  border: 1px solid grey;
+  background-color: transparent;
+  color: grey;
+  height: 35px;
+  width: 130px;
+  border-radius: 5px;
+}
+.btnfooter:hover{
+  background-color: white;
+  color: black;
+}
+.cusfooter>div:nth-child(1), .currencyfooter>div:nth-child(1), .mettafooter>h5, .quickfooter>h5, .followusfooter>h5, .accepfooter>h5{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cusfooter>div:nth-child(2){
+  line-height: 40px;
+}
+.cusfooter>div:nth-child(2),.cusfooter>div:nth-child(3),.currencyfooter>p{
+  color: gray;
+}
+.currencyfooter>div:nth-child(1){
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.currencyfooter>div:nth-child(2){
+  text-transform: uppercase;
+  font-weight: bold;
+  /* margin-left: 10px; */
+  word-spacing: 10px;
+}
+.imgfooter{
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+  position: relative;
+  top: 5px;
+}
+.hr2{
+  margin: 0px 80px;
+  border: none;
+  height: 1px;
+  background-color: #8a8988 !important;
+}
+.secondfooter{
+  margin: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.mettafooter>li,.quickfooter>li{
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.quickfooter{
+  margin-bottom: 40px;
+}
+.followusfooter>li{
+  list-style-type: none;
+}
+.followusfooter>li .circle{
+  display: flex;
+}
+.followusfooter>li>div>div{
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0px 5px 0px 0px;
+}
+.followusfooter>li>div>div>i{
+  position: relative;
+  top: 2px;
+  left: 4.5px;
+}
+.imagefooter{
+  display: flex;
+}
+.imagefooter>li{
+  list-style-type: none;
+  margin: 0px 10px 0px 0px;
+  background-color: white;
+  border-radius: 2px;
+}
+.imagefooter>li>img{
+  height: 25px;
+  width: 55px;
+  align-items: center;
+  object-fit: contain;
+}
+.accepfooter{
+  position: relative;
+  left: 34px;
+}
+
+/* copyfooter */
+
+.copyfooter>p{
+  background-color: black;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* margin: 20px; */
+}
+.copyfooter>div{
+  color: black;
 }
