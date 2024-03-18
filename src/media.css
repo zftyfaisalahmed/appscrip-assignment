@@ -132,17 +132,26 @@
   .logo>i{
     margin: 0px;
   }
+  .mainfooter>.fisrtfooter{
+    margin: 20px;
+  }
+  .secondfooter{
+    margin: 20px;
+  }
+  .hr2{
+    margin: 20px;
+  }
 }
 
 @media (max-width : 678px) {
   .nav{
-    width: 85%;
-    margin: none;
+    width: 100%;
+    margin: 0px;
   }
   .nav h5{
       border-bottom: 1px solid gray !important;
       padding: 10px;
-      padding: none;
+      /* padding: 0px; */
   }
   .nav>div>div{
     display: none;
@@ -177,22 +186,39 @@
     display: flex;
     justify-content: space-between;
   }
+  .secondfooter>div>ul{
+    padding: 0px;
+  }
+  .items{
+    margin: 0px;
+  }
+  .showspace>p{
+    margin-left: 40px;
+  }
+  .recommended>p{
+    margin-right: 40px;
+  }
+  .discover>div>h1{
+    margin: 0px 20px;
+    margin-top: 20px;
+  }
 }
   
 @media screen and (min-width : 0px) and (max-width : 678px) {
-  .products {
+  .products{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 10px;
   }
-  .cardproducts {
+  .cardproducts{
       flex: 0 calc(45% - 10px);
       margin-bottom: 20px;
   }
-  .cardproducts img {
+  .cardproducts>img{
       width: 100%;
   }
-  .cardheart {
+  .cardheart{
       display: flex;
       justify-content: space-between;
   }
