@@ -126,6 +126,12 @@
   .secondfooter{
     /* display: none; */
   }
+  .navbar{
+    margin: 0px 20px 0px 20px;
+  }
+  .logo>i{
+    margin: 0px;
+  }
 }
 
 @media (max-width : 678px) {
